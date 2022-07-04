@@ -1,0 +1,28 @@
+.hero-background {
+    height: 25%;
+    width: 100%;
+    background-color: #1f2937;
+
+}
+.page-margin {
+    margin: 0 12.5% 0 12.5%;
+}
+.hero-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.hero-link {
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
