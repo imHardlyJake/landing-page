@@ -1,3 +1,4 @@
+/* * { border: 1px solid black;} */
 .hero-background {
     height: 25%;
     width: 100%;
@@ -5,7 +6,7 @@
 
 }
 .page-margin {
-    margin: 0 12.5% 0 12.5%;
+    margin: 0 12.5% 100px 12.5%;
 }
 .hero-logo {
     color: #f9faf8;
@@ -25,4 +26,69 @@ nav {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+.not-an-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 215px;
+    background-color: #e5e7eb;
+}
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    
+}
+.hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+.hero-cont {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+    
+}
+.main-text-cont {
+    padding-right: 5%;
+    margin-top: 0%;
+    
+}
+.hero-button {
+    margin-top: 15px;
+}
+.rand-info-cont {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0%;
+    padding-bottom: 100px;
+    
+    
+}
+.blue-box {
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+}
+.blue-box-cont {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    
+}
+.blue-box-subtext {
+    width: 150px;
+} 
+.random-head {
+    text-align: center;
+    margin-top: 0%;
 }
