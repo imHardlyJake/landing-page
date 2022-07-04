@@ -1,4 +1,5 @@
-/* * { border: 1px solid black;} */
+ * { border: 1px solid black;} 
+ 
 .hero-background {
     height: 25%;
     width: 100%;
@@ -52,7 +53,8 @@ nav {
 .hero-cont {
     display: flex;
     justify-content: flex-start;
-    padding-bottom: 100px;
+    
+    padding-bottom: 50px;
     
 }
 .main-text-cont {
@@ -75,7 +77,8 @@ nav {
     
 }
 .blue-box {
-    border: 2px solid blue;
+    border-radius: 10px;
+    border: 2px solid #3882f2;
     height: 150px;
     width: 150px;
 }
@@ -90,5 +93,32 @@ nav {
 } 
 .random-head {
     text-align: center;
+    margin-top: 75px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+.quote-cont {
+    
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 25%;
+    padding-right: 25%;
+    max-height: 25%;
+    max-width: 100%;
+    background-color: #e5e7eb;
+}
+.quote {
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoter {
+    margin-left: 75%;
+    font-weight:600;
     margin-top: 0%;
+    color: #1f2937;
+    
+    
 }
